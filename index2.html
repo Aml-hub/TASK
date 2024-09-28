@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>userData</title>
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th{
+            background-color: rgba(95, 158, 160, 0.132);
+          
+        }
+        #Show{
+            margin: 20px;
+            width: 150px;
+            height: 50px;
+            background-color: cadetblue;
+            border-radius: 10px;
+        }
+        #delete{
+            width: 100px;
+            height: 30px;
+            background-color: rgba(203, 8, 8, 0.826);
+            border-radius:10px ;
+        }
+    </style>
+</head>
+<body>
+    <button id="Show">Show All Users</button>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>USERNAME</th>
+                <th>EMAIL</th>
+                <th>ADDRESS</th>
+                <th>PHONE</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+    <script src="index2.js"></script>
+</body>
+</html>
